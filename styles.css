@@ -4,6 +4,9 @@
 	justify-content:flex;
 	
 }
+.mainclass{
+	display:flex;
+}
 .header{
 	background-color:#011e29;
 	color:white;
@@ -19,8 +22,7 @@
 	margin-left:20px;
 	text-align:center;
 	border-radius:20px;
-	
-	
+	margin-top:20px;
 }
 .Main-section{
 	background-color:#fffeff;
@@ -30,6 +32,7 @@
 	text-align:center;
 	border-radius:20px;
 	margin-top:20px;
+	margin-right:20px
 	
 }
 .pictorial-news-section{
@@ -44,7 +47,15 @@
 .pictorial{
 	width:200px;
 	height:100px;
-	padding:10px
+	padding:10px;
+	padding-left:10px;
+	position:center:
+}
+.pictorial:hover{
+	cursor:pointer;
+	background:gray;
+	scroll:smooth;
+	box-shadow: 5px 5px 10px #888;
 }
 
 
